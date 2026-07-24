@@ -1,0 +1,44 @@
+.main {
+    margin: 0 0 0 0;
+    padding: 0;
+    background: whitesmoke;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.header {
+    text-align: center;
+    background: #fcfcfc;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.header img {
+    width: 150px;
+}
+
+.right {
+    padding: 10px 50px 10px 10px;
+}
+
+.right label {
+    display: inline-block;
+    margin: 5px;
+    width: 60px;
+}
+
+.right input {
+    width: 85%;
+    display: inline;
+    margin: 5px;
+}
+.left{
+    padding: 10px 20px 10px 10px;
+}
+.left ul li{
+    margin: 15px;;
+}
+.mylabel>input{opacity: 0;width: 20px;}
+.mylabel>span{display: inline-block;width: 210px;}
+button#enter_button{position: relative;}
+h3#useful{margin-top: 0;}
+ul#useful_items>li>span{margin-left: 5px;vertical-align: middle;}

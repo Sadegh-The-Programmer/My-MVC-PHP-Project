@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/yekan.ttf') format('truetype'),
+    url('../fonts/yekan.eot?#iefix') format('embedded-opentype');
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+* {
+    font-family: "yekan", fantasy;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #d9edf7 !important;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #f8f9e9;
+	padding:20px 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    font-size: 28px;
+}
+
+.textIcon {
+    vertical-align: top;
+
+    font-size: 16px;
+}
+
+#basket, #search {
+    height: 100%;
+}
+#enter>i{margin-top: 12px;}
+#basket {
+    float: right;
+    background-color: chartreuse;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+#basket span {
+    vertical-align: middle;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 26px;
+}
+
+#search {
+    margin-top: 3px;;
+    float: right;
+    width: 100%;
+}
+
+.autocenter {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    #enter, #signup {
+        text-align: center;
+    }
+    #basket_logo{
+
+    }
+    #basket{
+
+        padding:10px;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    header #search > input{
+        width: 100% !important;
+    }
+    #searchbox {
+        padding-right: 0 !important;
+    }
+    .searchbutton{width: 100% !important;
+    }
+   
+}
+#enter, #signup {
+    float: right;
+    line-height: 3;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid bisque;
+}
+@media screen and (max-width: 512px) {
+
+
+    .navbar-header {
+
+        position: absolute;
+        left: 0;
+        margin-left: 0 !important;
+        margin-right: 50px !important;
+
+    }
+
+    .sub4 {
+        height: 240px !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .navbar-nav > li a {
+        cursor: default !important;
+    }
+
+    .navbar-nav > li .glyphicon-chevron-down {
+        display: none !important;
+    }
+
+
+
+    .caret {
+        cursor: pointer;
+    }
+
+
+
+    .sub4 {
+        height: 240px !important;
+    }
+
+
+
+    .navbar-header {
+        top: 0;
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        margin-left: 0 !important;
+        margin-right: 50px !important;
+
+    }
+
+    #mobile {
+        width: 17em !important;
+    }
+}
+@media screen and (min-width: 767px) {
+
+
+    .custom > li {
+        float: right !important;
+        width: 7em;
+        display: inline-block;
+    }
+
+    .caret {
+        display: none;
+    }
+
+    .sub1 {
+        min-width: 0 !important;
+        width: 10em !important;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        height: 220px !important;
+        top: 33px !important;
+        border: none;
+        border-radius: 0;
+    }
+
+    .sub3 {
+        min-width: 0 !important;
+        width: 14.7em !important;
+        position: absolute;
+        right: 140px;
+        text-align: right;
+        height: 220px !important;
+        top: 33px !important;
+        border: none;
+        border-radius: 0;
+    }
+
+    .sub4 {
+        min-width: 0 !important;
+        width: 18.5em !important;
+        position: absolute;
+        right: 340px;
+        text-align: right;
+        height: 220px !important;
+        top: 33px !important;
+        border: none;
+        border-radius: 0;
+    }
+
+    .sub2 {
+        min-width: 0 !important;
+        width: 14.7em !important;
+        position: absolute;
+        right: 250px;
+        text-align: center;
+    }
+}
+/* Header */
+header{
+    font-size: 18px;
+}
+.sub2{margin-top:5px !important;}
+.sub1,.sub3,.sub4{margin-top:0 !important;}
+ul.sub4>img{
+    margin-left: 20px;;height: 50px;width: 50px;
+}
+header #enter{padding-left: 0;}
+header #signup{padding-right: 0;}
+header .container{
+    background: transparent;
+}
+header #up_header{height: 60px;}
+#down_header a{
+    cursor: pointer;
+}
+header #search>input{
+    border-radius: 10px;
+
+    padding: 5px;
+}
+/* footer */
+footer{
+    background-color: beige;
+    float: right;
+    width: 100% !important;
+    margin-top:8px;
+    padding: 0 !important;
+
+}
+#footer_top{background: #6d717a none repeat scroll 0 0;
+    padding: 20px;
+    color:whitesmoke;
+    text-align: center;
+}
+#footer_bottom{
+    background: #f7f8fa none repeat scroll 0 0;
+}
+@media screen and (min-width: 1100px) {
+    #seven{text-align: right !important;}
+}
+@media screen and (max-width: 767px) {
+    #footer_bottom ul{text-align: center !important;}
+    #footer_bottom ul li{padding-right: 0 !important;}
+    .main {padding-right:0 !important;}
+
+}
+
+
+#footer_bottom ul li{
+    padding-right: 35px;
+    line-height: 25px;
+}
+#logos{margin-top: 5px;}
+#logos span{
+    font-size: 18px;
+    margin:5px;
+    vertical-align: middle;
+}
+.deactived{
+    opacity: 0.5;
+    cursor: default !important;
+}
+#down_header>div:first-child{
+    padding: 0;
+}
+#down_header>div:first-child>a{padding-top: 0;}
+.navbar-default{
+    margin-bottom: 0 !important;
+}
+.navbar-header>button{
+    margin-top:10px;
+}
+span.glyphicon-chevron-down{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+li#mobile{
+    width: 12em;
+}
+.row{padding: 0;}
+.glyphicon-earphone,.glyphicon-info-sign{margin-right: 10px;vertical-align: middle;}
+a#basket_logo>span{margin-top: 5px;}
+.glyphicon-question-sign{vertical-align: middle;}
+#email_company{font-weight: bolder;font-size: 14px;}
+#email_services{padding: 10px;font-size: 18px;}
+.contact_us_items{margin: 5px;}
+#apps_logo{margin: 10px;}
+#apps_logo>img{margin: 5px;}
+#faq{
+    color: #c7ddef;}

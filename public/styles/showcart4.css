@@ -1,0 +1,33 @@
+.progress{
+    background-size: 80% 19px;
+}
+.total_money{
+    background-color: #a6e1ec;
+}
+.total_money h5{
+    padding: 20px;
+    color: red;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.second {
+    padding: 10px;
+}
+.second > div {
+    margin-top: 5px;
+}
+.second > div> div> img {
+    display: inline-block;
+    margin-left: 10px;
+}
+.second > div>div:nth-child(2) > p {
+    line-height: 3.5;
+}
+
+
+.bank_name{position: relative;
+    top: -10px;}
+.myrow{width: 100%;
+    float: right;}
+.green{box-shadow: 3px 2px 10px cyan;background-color: #a6e1ec}
+.red{box-shadow: 3px 2px 10px palevioletred;background-color: #dca7a7}

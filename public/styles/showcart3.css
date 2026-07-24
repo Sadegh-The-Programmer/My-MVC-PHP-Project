@@ -1,0 +1,106 @@
+.progress{
+    background-size: 60% 19px;
+}
+.head {
+    width: 100%;
+    float: right;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    padding: 10px 10px 20px;
+}
+
+.head > button {
+    background-color: #427c43;
+}
+.mytable .table_body #ax {
+
+    width: 100px;
+    display: inline;
+    border-radius: 10px;
+
+}
+.mytable .table_body p {
+
+    margin: 15px 0 0 5px;
+    width: 150px;
+    float: left;
+
+}
+.mytable {
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+
+.mytable  .table_header {
+    width: 100%;
+    float: right;
+    background-color: silver;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.mytable  .table_body {
+    width: 100%;
+    float: right;
+}
+
+.mytable  .table_footer {
+    width: 100%;
+    float: right;
+}
+
+
+
+.mytable  .table_body p {
+    margin: 2px 0;
+}
+
+.mytable .table_body > div {
+
+    padding: 5px;
+    border-left: 1px solid #761c19;
+    height: 110px;
+
+}
+
+.mytable  .table_body > div > span, .mytable > .table_body > div > .taki {
+    display: inline-block;
+    top: 35%;
+    position: relative;
+    width: 100%;
+}
+
+.mytable  .table_body > div:last-child {
+    border-left: none;
+}
+
+.mytable  .table_body #ax {
+    width: 100px;
+    height: 100px;
+}
+
+.mytable  .table_body .pull-left {
+    padding-top: 10px;
+}
+.mytable > .table_footer{
+    background-color: white;
+    padding: 30px 10px 20px 10px;
+    float: right;
+    width: 100%;
+}
+.mytable > .table_footer >div{width: 100%;text-align: right;padding-left: 30px;float: right;}
+.mytable > .table_footer >div>p:first-child{font-size: 16px;width: 40%;float: left;}
+.mytable > .table_footer >div>p:nth-child(4){font-size: 20px;font-weight: bolder;width: 40%;float: left;clear: left;}
+.myrow{
+    width: 100%;
+    float: right;
+    padding: 10px;
+}
+.myrow>div{
+    padding: 10px;
+}
+.myrow>div>i{
+    font-size: 20px;
+}
+.myrow div:first-child{text-align: center;}

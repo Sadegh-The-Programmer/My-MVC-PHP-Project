@@ -1,0 +1,58 @@
+.main {
+    background-color: white;
+    padding: 10px;
+}
+.main>h5{
+    margin-top: 20px;
+}
+.main .row{
+    margin: 30px 10px;
+
+}
+.progress{
+    background: url("../images/progress-background.jpg") no-repeat right;
+    background-size: 186px 19px;
+    border:1px solid rebeccapurple;
+}
+/* progress bar */
+.one, .two, .three,.four{
+    position: absolute;
+    margin-top: -20px;
+    z-index: 1;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border:1px solid rebeccapurple;
+}
+.one{
+    left:20%;
+}
+.two{
+    left:40%;
+}
+.three{
+    left:60%;
+}
+.four{
+    left:80%;
+}
+.primary-color{
+    background-color:#4989bd;
+}
+.success-color{
+    background-color:#5cb85c;
+}
+.danger-color{
+    background-color:#d9534f;
+}
+.warning-color{
+    background-color:#f0ad4e;
+}
+.info-color{
+    background-color:#5bc0de;
+}
+.no-color{
+    background-color:aquamarine;
+}
